@@ -3,9 +3,7 @@
 def magic_calculation(a, b):
 
     """
-
     implement the magic calculation based -
-
     on a bytcode
 
     """
