@@ -46,6 +46,7 @@ class SinglyLinkedList:
     def __init__(self) -> None:
         """ defines the private attribute:head """
         self.__head = None
+
     def __str__(self) -> str:
         """ returns SinglyLinkedList elements"""
         nod = []
