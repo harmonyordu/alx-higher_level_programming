@@ -9,6 +9,7 @@ def print_info():
         if code_times > 0:
             print('{}: {:d}'.format(scode, code_times))
 
+
 status_codes = {
     '200': 0,
     '301': 0,
@@ -45,7 +46,7 @@ try:
 
         lc += 1
 
-    print_info()
+print_info()
 except KeyboardInterrupt:
     print_info()
     raise
